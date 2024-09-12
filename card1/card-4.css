@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container .row {
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae2b7;
+}
+
+.container .row .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+     width: 43%;
+    /* flex: 1; */
+    display: flex;
+
+}
+
+.row .card .product-img {
+    width: 50%;
+}
+
+.row .card .product-img :hover {
+    
+}
+
+.row .card img {
+    width: 100%;
+    height: 100%;
+}
+
+.row .card .product-inf {
+    display: flex;
+    justify-content: center;
+    background-color: #f8c5a6;
+    text-align: center;
+    width: 50%;
+
+}
+
+.product-inf-inner h3 {
+    color: #525252;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product-price-main-box {
+    margin-top: 5%;
+}
+
+.product-inf-inner .price-inf-box .offer-price {
+    font-size: 20px;
+}
+
+.product-inf-inner .price-inf-box .price-dis {
+    font-size: 12px;
+    margin-left: 12px;
+    background-color: #F97316;
+}
+
+.product-inf-inner .price-inf-box del {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.product-inf .product-inf-inner {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-top: 5%;
+}
+
+.product-price-main-box .product-dec-box {
+    text-align: justify;
+    margin-top: 10%;
+
+}
+
+.product-price-main-box .product-dec-box .free-l {
+    margin-top: 6%;
+
+}
+
+.product-price-main-box .button-box {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.product-price-main-box .button-box .buy-now-button-1 {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    width: 100%;
+    margin-bottom: 8%;
+    background-color: #F97316;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.product-price-main-box .button-box .add-Cart-button-2 {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    width: 100%;
+    background-color: #EA580C;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.product-price-main-box .button-box .add-Cart-button-2:hover {
+    background-color: #f9741636;
+    transition: all .2s;
+    font-weight: bold;
+    color: #EA580C;
+
+}
+
+.product-price-main-box .button-box .buy-now-button-1:hover {
+    background-color: #f9741636;
+    transition: all .2s;
+    font-weight: bold;
+    color: #EA580C;
+
+}
+
+@media (max-width:923px) {
+
+    .container .row .card {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .row .card .product-img {
+        width: 300px;
+    }
+
+    .row .card .product-inf {
+        display: flex;
+        justify-content: center;
+        background-color: #f8c5a6;
+        text-align: center;
+        width: 300px;
+
+    }
+
+
+}
+
+@media (min-width:270px) and (max-width:540px) {
+
+
+
+
+    .container .row .card {
+
+        padding: 10px;
+        width: 500%;
+
+    }
+
+    .row .card .product-img {
+        width: 280px;
+    }
+
+
+
+
+    .row .card .product-inf {
+
+        width: 280px;
+
+    }
+
+
+    .product-inf-inner h3 {
+        color: #525252;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .product-price-main-box {
+        margin-top: 5px;
+    }
+
+    .product-inf-inner .price-inf-box .offer-price {
+        font-size: 15px;
+    }
+
+    .product-inf-inner .price-inf-box .price-dis {
+        font-size: 8px;
+        margin-left: 12px;
+        background-color: #F97316;
+    }
+
+    .product-inf-inner .price-inf-box del {
+
+        font-size: 13px;
+    }
+
+    .product-inf .product-inf-inner {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .product-price-main-box .product-dec-box p {
+        text-align: justify;
+        margin-top: 10px;
+        font-size: 10px;
+
+    }
+
+    .product-price-main-box .product-dec-box .free-l {
+        margin-top: 10px;
+
+    }
+
+    .product-price-main-box .button-box {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .product-price-main-box .button-box .buy-now-button-1 {
+
+        font-size: 10px;
+    }
+
+    .product-price-main-box .button-box .add-Cart-button-2 {
+
+        font-size: 10px;
+    }
+
+
+}

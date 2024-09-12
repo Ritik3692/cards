@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #caf0f8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    background-color: #ffff;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.summary{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 32px;
+    text-align: center;
+}
+.card h4{
+    font-weight: bolder;
+    font-size: 20px; 
+}
+.card p{
+    font-size: 13px;
+    text-align: justify;
+}
+.box-payment{
+    width: 70%;
+    height: 35px;
+    background-color: #caf0f8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-radius: 5px;
+}
+.left-box{
+    width: 50%;
+    height: 35%;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+    margin-right:10px;
+}
+.logo img{
+    width: 80%;
+    height: 80%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.annul-plan{
+    width: 50%;
+    height: 35%;
+    margin-top: 5px;
+}
+.annul-plan p{
+    font-size: 10px;
+}
+.right-box{
+    margin-top: 5px;
+    margin-right: 21px;
+}
+.right-box a{
+    color: blue;
+}
+
+.payment-button1{
+    width: 70%;
+    margin-top: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+.payment-button{
+    border-radius: 8px;
+    width: 100%;
+    font-size: 10px;
+    height:35px;
+    background-color: #0E2330;
+    color: #ffff;
+}
+
+.payment-button:hover{
+   
+    background-color: #0f3449;
+    color: #ffff;
+}
+.card a{
+    text-decoration: none;
+    color: #1b263b;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: bold;
+    &:hover {
+        transform: scale(1.1);
+        
+    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+@media (min-width:999px) and (max-width:1359px) {
+    .card {
+        height: 450px;
+        width: 214px;
+        background-color: #ffff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .box-payment{
+        width: 70%;
+        height: 35px;
+        background-color: #caf0f8;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .left-box{
+        width: 50%;
+        height: 35%;
+        margin-left: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .logo{
+        width: 35px;
+        height: 35px;
+        margin-top: 3px;
+        margin-right:10px;
+    }
+    .logo img{
+        width: 80%;
+        height: 80%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .annul-plan{
+        width: 60%;
+        height: 35%;
+        margin-top: 5px;
+    }
+    .annul-plan p{
+        font-size: 8px;
+    }
+    .right-box{
+        margin-top: 5px;
+        margin-right: 21px;
+    }
+    .right-box a{
+        color: blue;
+    }
+    
+    .payment-button1{
+        width: 70%;
+        margin-top: 18px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+       
+    }
+
+    .payment-button{
+        border-radius: 8px;
+        width: 100%;
+        font-size: 10px;
+        height:35px;
+        background-color: #0E2330;
+        color: #ffff;
+        
+    }
+
+    .payment-button:hover{
+        background-color: #9eb6c5;
+    }
+    .card a{
+        text-decoration: none;
+        color: #1b263b;
+        font-size: 13px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
+

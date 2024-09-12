@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contanier{
+    height: 100vh;
+    width: 100vw;
+    background-color: #214D6E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 350px;
+    width: 600px;
+    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+   
+}
+
+.inf-box{
+    height: 100%;
+  width: 300px;
+  background-color: #450944;
+  text-align: center;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  align-items: center;
+}
+.inf-box-inner h2{
+   margin-top: 10px;
+   font-size: 25px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.inf-box-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 20px;
+    width: 256px;
+
+}
+
+.box-footer{
+   
+    width: 256px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 60px;
+    
+}
+
+.lest-box-footer{
+  margin: 10px;
+}
+.med-box-footer{
+    margin-top: 9px;
+}
+.right-box-footer{
+    margin: 10px;
+}
+
+.footer-main-inf{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-inf-foot{
+  font-size: 10px;
+}
+.img-box{
+  height: 100%;
+  width: 300px;
+  background-image: url(./image/pexels-junior-teixeira-1064069-2047905.jpg);
+  background-size: 100%  100%;
+}
